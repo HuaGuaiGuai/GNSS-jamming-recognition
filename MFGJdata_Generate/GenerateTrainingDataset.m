@@ -89,7 +89,6 @@ gnss_signal = ca_code.*navigation_data.*L1_carrier;
 noise = wgn(1,length(t),n0*bandwidth,'linear');
 
 % Generation of interfering signalsea
-
 CleanSpectrogramGen(img_num,modulation,n_periods,P_s,f_L1,fs,T,n0,bandwidth,root_path,'00Clean/',resolution);
 CWISpectrogramGen(jsr_range,f_range_cwi,f_num_cwi,fs,T,gnss_signal,P_s_dBW,noise,root_path,'01CWI/',num_per_type,...
                   resolution);
