@@ -38,43 +38,53 @@ f_num_cwi = ceil(num_per_type/(jsr_range(2)-jsr_range(1)+1));
 sweep_num_dme = 3;
 f_range_dme = [-10e6,10e6];
 f_num_dme = ceil(num_per_type/sweep_num_dme/(jsr_range(2)-jsr_range(1)+1));
-% 04Linear 
-sweep_range_w= [2,16];
-sweep_num_w = 6;
-f_range_w = [1e6,20e6];
-f_num_w = ceil(num_per_type/(jsr_range(2)-jsr_range(1)+1));
+
 % 03HookedSawtooth
 sweep_range_hooksaw = [2,10];
 sweep_num_hooksaw = 5;
 f_range_hooksaw = [1e6,20e6];
 f_num_hooksaw = ceil(num_per_type/sweep_num_hooksaw/(jsr_range(2)-jsr_range(1)+1));
+
+% 04Linear 
+sweep_range_w= [2,16];
+sweep_num_w = 6;
+f_range_w = [1e6,20e6];
+f_num_w = ceil(num_per_type/(jsr_range(2)-jsr_range(1)+1));
+
 % 05Triangular
 sweep_range_tri = [2,10];
 sweep_num_tri = 5;
 f_range_tri = [1e6,20e6];
 f_num_tri = ceil(num_per_type/sweep_num_tri/(jsr_range(2)-jsr_range(1)+1));
+
 % 06TriangularWave
 sweep_range_triw = [2,10];
 sweep_num_triw = 5;
 f_range_triw = [1e6,20e6];
 f_num_triw =ceil(num_per_type/sweep_num_tri/(jsr_range(2)-jsr_range(1)+1));
+
 % 07Sawtooth
 sweep_range_saw = [2,10];
 sweep_num_saw = 5;
 f_range_saw = [1e6,20e6];
 f_num_saw = ceil(num_per_type/sweep_num_saw/(jsr_range(2)-jsr_range(1)+1));
+
 % 08Tick
 sweep_range_tick = [2,10];
 sweep_num_tick = ceil(num_per_type/(jsr_range(2)-jsr_range(1)+1));
+
 % 9DSSS
 f_range_dsss = [-10e6,10e6];
 f_num_dsss = ceil(num_per_type/(jsr_range(2)-jsr_range(1)+1));
+
 % 10NBFM
 f_range_nbfm = [0.1e6,2e6];
 f_num_nbfm = ceil(num_per_type/(jsr_range(2)-jsr_range(1)+1));
+
 % 11MultiTone
 f_range_mt = [5e6,7e6];
 f_num_mt = ceil(num_per_type/(jsr_range(2)-jsr_range(1)+1));
+
 % 12BLGNI
 f_range_blgni = [6e6,20e6];
 f_num_blgni = ceil(num_per_type/(jsr_range(2)-jsr_range(1)+1));
