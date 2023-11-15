@@ -93,6 +93,8 @@ ca_code = ca_code.'; % Matrix Transposition
 navigation_data = ones(size(ca_code)); % Navigation Information, Fixed Transmission of 1.
 L1_carrier = sqrt(P_s/2)*exp(1j*2*pi*f_L1*t); % Complex L1 Carrier (Other Interferences Use Complex Carriers)
 gnss_signal = ca_code.*navigation_data.*L1_carrier;
+% fh = BOCgen
+% gnss_signal = ca_code.*navigation_data.*L1_carrier +ca_code.*navigation_data.*boc_carrier;
 
 % Generate Additive Gaussian White Noise.
 noise = wgn(1,length(t),n0*bandwidth,'linear');
