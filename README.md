@@ -17,4 +17,4 @@ A sample image name is "image00001_01CWI_jsr15", Each name can be splited into T
   `<type = ["00Clean", "01CWI", "02DME", "03HookedSawtooth", "04Linear", "05Triangular", "06Triangular-<br>Wave", "07Sawtooth", "08Tick", "09DSSS", "10NBFM", "11BLGNI"]>`  
  `<JSR = [15, 50]>`  
 ## Dataset Generation
-We publish the code for generating MFGJ datasets in the MFGJdata_Generate folder, so that you can generate a customized number of MFGJ datasets according to your needs.
+We publish the code for generating MFGJ datasets in the MFGJdata_Generate folder, so that you can generate a customized number of MFGJ datasets according to your needs.  
