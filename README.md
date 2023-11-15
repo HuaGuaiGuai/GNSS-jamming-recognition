@@ -13,4 +13,6 @@ Annotations are embedded in file name.
 A sample image name is "image00001_01CWI_jsr15", Each name can be splited into THREE fields. Those fields are explained as follows.  
  * ***image_index***:The index number of the image under the corresponding category  
  * ***type***: Classes of jamming in GNSS
- * ***JSR***: JSR of the corresponding image    
+ * ***JSR***: JSR of the corresponding image  
+  `<type = ["00Clean", "01CWI", "02DME", "03HookedSawtooth", "04Linear", "05Triangular", "06Triangular-<br>Wave", "07Sawtooth", "08Tick", "09DSSS", "10NBFM", "11BLGNI"]>`  
+ `<JSR = [15, 50]>`  
