@@ -9,4 +9,5 @@ Train\Test | 00Clean | 01CWI | 02DME | 03Hooked-<br>Sawtooth | 04Linear | 05Tria
 ***Train*** |*3600*|*3600*|*3600*|*3600*|*3600*|*7200*|*3600*|*3600*|*3600*|*3600*|*3600*|*3600* 
 ***Test***  |*1800*|*1800*|*1800*|*1800*|*1800*|*1800*|*1800*|*1800*|*1800*|*1800*|*1800*|*1800*
 ## Dataset Annotations
-Annotations are embedded in file name.  
+Annotations are embedded in file name. 
+
