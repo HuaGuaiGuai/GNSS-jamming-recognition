@@ -11,5 +11,6 @@ Train\Test | 00Clean | 01CWI | 02DME | 03Hooked-<br>Sawtooth | 04Linear | 05Tria
 ## Dataset Annotations
 Annotations are embedded in file name. 
 A sample image name is "image00001_01CWI_jsr15", Each name can be splited into THREE fields. Those fields are explained as follows.  
- * image_index:The index number of the image under the corresponding category  
- * type: Classes of jamming in GNSS  
+ * ***image_index***:The index number of the image under the corresponding category  
+ * ***type***: Classes of jamming in GNSS
+ * ***JSR***: JSR of the corresponding image    
